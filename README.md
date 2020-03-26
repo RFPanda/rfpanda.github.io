@@ -1,3 +1,3 @@
-# rfpanda.github.io
+# rfpanda.ga
 
 This is my personal site
