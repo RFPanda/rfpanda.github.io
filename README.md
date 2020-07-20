@@ -1,3 +1,3 @@
-# rfpanda.ga
+# rfpanda.ml
 
 This is my personal site
