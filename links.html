@@ -64,11 +64,11 @@
             <div class="bookmark-set">
                 <div class="bookmark-title">Study five</div>
                 <div class="bookmark-inner-container">
-					  <a class="bookmark" href="https://tgme.ga/studyfive" target="_blank"><font size="3">studyfive.ga</font></a> 
+					  <a class="bookmark" href="https://studyfive.ga<" target="_blank"><font size="3">studyfive.ga</font></a> 
 					  </div>
             </div>
             <div class="bookmark-set">
-            <div class="bookmark-title">Telegram redirect</div>
+            <div class="bookmark-title">TG redirect</div>
             <div class="bookmark-inner-container">
 					<a class="bookmark" href="https://tgme.ga" target="_blank"><font size="3">tgme.ga</font></a>
 					</div>
@@ -83,69 +83,11 @@
 				</div>
 			-->
         </div>
-		<footer>
-		<div class="bookmark-title"> <a class="bookmark" href="http://tgme.ga/rfpanda" target="_blank"><h2>Developer</h2></a></div>
-		</footer>
+	<!-- Footer -->	
+	<footer>
+		<div class="bookmark-title"> <a class="bookmark" href="http://t.me/rfpanda" target="_blank"><h2>Developer</h2></a></div>
+	</footer>
+	<!-- Footer end -->
     </div>
-<!-- Footer -->
-					
-<!-- Footer end -->
-    <script>
-        // Search on enter key event
-        function search(e) {
-            if (e.keyCode == 13) {
-                var val = document.getElementById("search-field").value;
-                window.open("https://google.com/search?q=" + val);
-            }
-        }
-        // Get current time and format
-        function getTime() {
-            let date = new Date(),
-                min = date.getMinutes(),
-                sec = date.getSeconds(),
-                hour = date.getHours();
-
-            return "" + 
-                (hour < 10 ? ("0" + hour) : hour) + ":" + 
-                (min < 10 ? ("0" + min) : min) + ":" + 
-                (sec < 10 ? ("0" + sec) : sec);
-        }
-
-        window.onload = () => {
-            let xhr = new XMLHttpRequest();
-            // Request to open weather map
-            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=Kazan,Ru&units=metric&type=like&APPID=05e93dacdc628532945b72385554f3a2');
-	         xhr.onload = () => {
-                if (xhr.readyState === 4) {
-                    if (xhr.status === 200) {
-                        let json = JSON.parse(xhr.responseText);
-                        console.log(json);
-                        document.getElementById("temp").innerHTML = json.main.temp.toFixed(0) + " С";
-                        document.getElementById("weather-description").innerHTML = json.weather[0].description;
-                    } else {
-                        console.log('error msg: ' + xhr.status);
-                    }
-                }
-            } 
-            xhr.send();
-            // Set up the clock
-            document.getElementById("clock").innerHTML = getTime();
-            // Set clock interval to tick clock
-            setInterval( () => {
-                document.getElementById("clock").innerHTML = getTime();
-            },100);
-        }
-
-        document.addEventListener("keydown", event => {
-            if (event.keyCode == 32) {          // Spacebar code to open search
-                document.getElementById('search').style.display = 'flex';
-                document.getElementById('search-field').focus();
-            } else if (event.keyCode == 27) {   // Esc to close search
-                document.getElementById('search-field').value = '';
-                document.getElementById('search-field').blur();
-                document.getElementById('search').style.display = 'none';
-            }
-        });
-    </script>
 </body>
 </html>
