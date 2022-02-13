@@ -1,4 +1,4 @@
-# **[Personal site - RFPanda](rfpanda.ml)**
+# **[Personal site - RFPanda](rfpanda.ga)**
 
 **Project language**
 <li>Html</li>
