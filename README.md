@@ -1,4 +1,4 @@
-# **[Personal site - RFPanda](https://rfpanda.ml)**
+# **[Personal site - RFPanda](https://khasanov.my.id)**
 
 **Project language**
 <li>Html</li>
