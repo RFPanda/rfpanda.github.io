@@ -10,10 +10,10 @@ const COMMANDS = {
     "Commands":
         "Список команд: <span class=\"green\"> Help</span>, <span class=\"orange\"> Report</span>,<span class=\"rose\"> Surprise</span>, <span class=\"red\"> Exit</span><br><br>",
 	"Surprise":
-         "Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: <span class=\"green\">11-17956-86789-95358<span></p></br><img src=\"./assets/qr.png\"></br>Если всё прошло успешно то введи команду <span class=\"green\">Done</span>",	
+         "Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: <span class=\"green\">11-17956-86789-95358<span></p></br><img src=\"./Terminal/assets/qr.png\"></br>Если всё прошло успешно то введи команду <span class=\"green\">Done</span>",	
 	    //"Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: \n <p id=\"textToCopy\"><span class=\"green\">11-17956-86789-95358</div><span></p></br></br><img src=\"./assets/qr.png\"> \n",	
 	"Done":
-         "C праздником 8 марта!</br><img src=\"./assets/heart (1).png\">",	
+         "C праздником 8 марта!</br><img src=\"./Terminal/assets/heart (1).png\">",	
 	    
 	"cls":
         ""
