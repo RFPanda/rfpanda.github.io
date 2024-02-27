@@ -1,18 +1,18 @@
 const BLACKLISTED_KEY_CODES = [38,40,37,39,18,20,17,16,9,27,144];
 //List of commands
 const COMMANDS = {
-    "help":
+    "Help":
         'Страница, которую вы хотите посетить, не существует, возможно, она была удалена, или был введен неправильный адрес. Чтобы просмотреть команды, введите слово <span class=\"yellow\"> commands</span>',
-    "exit":
+    "Exit":
         "",
-    "report":
+    "Report":
         "<span class='red'>Репорт об этой странице был успешно отправлен в службу поддержки Айнура, но лучше написать ему в </span> <u><a href=\"https://rfpanda.t.me\" target=\"_blank\"><span class=\"blue\">telegram</span></a></u>",
-    "commands":
-        "Список команд: <span class=\"green\"> help</span>, <span class=\"orange\"> report</span>,<span class=\"rose\"> surprise</span>, <span class=\"red\"> exit</span><br><br>",
-	"surprise":
-         "Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: <span class=\"green\">11-17956-86789-95358<span></p></br><img src=\"./assets/qr.png\"></br>Если всё прошло успешно то введи команду <span class=\"green\">done</span>",	
+    "Commands":
+        "Список команд: <span class=\"green\"> Help</span>, <span class=\"orange\"> Report</span>,<span class=\"rose\"> Surprise</span>, <span class=\"red\"> Exit</span><br><br>",
+	"Surprise":
+         "Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: <span class=\"green\">11-17956-86789-95358<span></p></br><img src=\"./assets/qr.png\"></br>Если всё прошло успешно то введи команду <span class=\"green\">Done</span>",	
 	    //"Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: \n <p id=\"textToCopy\"><span class=\"green\">11-17956-86789-95358</div><span></p></br></br><img src=\"./assets/qr.png\"> \n",	
-	"done":
+	"Done":
          "C праздником 8 марта!</br><img src=\"./assets/heart (1).png\">",	
 	    
 	"cls":
