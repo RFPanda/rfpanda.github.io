@@ -2,7 +2,7 @@ const BLACKLISTED_KEY_CODES = [38,40,37,39,18,20,17,16,9,27,144];
 //List of commands
 const COMMANDS = {
     "Help":
-        'Страница, которую вы хотите посетить, не существует, возможно, она была удалена, или был введен неправильный адрес. Чтобы просмотреть команды, введите слово <span class=\"yellow\"> commands</span>',
+        'Страница, которую вы хотите посетить, не существует, возможно, она была удалена, или был введен неправильный адрес. Чтобы просмотреть команды, введите слово <span class=\"yellow\"> Commands</span>',
     "Exit":
         "",
     "Report":
@@ -10,7 +10,7 @@ const COMMANDS = {
     "Commands":
         "Список команд: <span class=\"green\"> Help</span>, <span class=\"orange\"> Report</span>,<span class=\"rose\"> Surprise</span>, <span class=\"red\"> Exit</span><br><br>",
 	"Surprise":
-         "Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: <span class=\"green\">11-17956-86789-95358<span></p></br><img src=\"./Terminal/assets/qr.png\"></br>Если всё прошло успешно то введи команду <span class=\"green\">Done</span>",	
+         "Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: <span class=\"green\">1C-179A6-8B789-D53A8<span></p>, где A - первая цифра моего дня рождения + 3, B - первая цифра твоего дня рождения + 4, C - крайняя цифра моего дня рождения, D - крайняя цифра твоего дня рождения + 9</br><img src=\"./Terminal/assets/qr.png\"></br>Если всё прошло успешно то введи команду <span class=\"green\">Done</span>",	
 	    //"Перейди на сайт <u><a href=\"https://mcpromo.ru\" target=\"_blank\"><span class=\"grray\">mcpromo.ru</span></a></u> и введи код доступа: \n <p id=\"textToCopy\"><span class=\"green\">11-17956-86789-95358</div><span></p></br></br><img src=\"./assets/qr.png\"> \n",	
 	"Done":
          "C праздником 8 марта!</br><img src=\"./Terminal/assets/heart (1).png\">",	
